@@ -205,3 +205,59 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================
+# Project-Specific: YOLO Computer Vision
+# ============================================
+
+# Dataset directory (large files, can be downloaded via Kaggle)
+data/
+
+# YOLO model files and checkpoints
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.tflite
+runs/
+weights/
+models/
+checkpoints/
+best.pt
+last.pt
+
+# YOLO training outputs
+results/
+outputs/
+wandb/
+tensorboard/
+logs/
+*.log
+
+# Kaggle cache and credentials
+.kaggle/
+*.kaggle
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Large image/video files (if any test samples)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
